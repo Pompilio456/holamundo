@@ -25,6 +25,9 @@ namespace HelloWorld
             datos = extraño1.DatosPersona();
             Console.WriteLine(datos);
 
+            Animal perro = new Animal("Labrador",4,true,false);
+            Console.WriteLine(perro.VerNombre);
+
             Console.ReadKey();
         }
     }
