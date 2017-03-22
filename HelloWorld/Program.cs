@@ -11,6 +11,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world"); //atajo cw
+            Console.WriteLine("Hola mundo");
             Console.ReadKey();
         }
     }
